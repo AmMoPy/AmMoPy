@@ -1,0 +1,54 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  deployments: write   # required for the prune step, controls what GH_TOKEN can do.
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Prune old deployment history # Runs after deploy-pages, so the just-created deployment is always index 1 (kept) and everything before it gets deactivated + deleted.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub auto-generates and injects it into every workflow run, scoped to that repo.
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          REPO="${{ github.event.repository.name }}"
+
+          deployments=$(gh api "repos/$OWNER/$REPO/deployments?environment=github-pages&per_page=100" --jq '.[].id')
+
+          count=0
+          for id in $deployments; do
+            count=$((count+1))
+            if [ "$count" -eq 1 ]; then
+              echo "Keeping latest deployment: $id"
+              continue
+            fi
+            echo "Deactivating and deleting deployment $id..."
+            gh api "repos/$OWNER/$REPO/deployments/$id/statuses" -f state=inactive --silent
+            gh api -X DELETE "repos/$OWNER/$REPO/deployments/$id" --silent
+          done
