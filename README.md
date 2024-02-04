@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-I like building stuff to detect stuff! Leverage data and analytics to deliver real insights, empower people, challenge constructively and build an enduring relationship with all stakeholders.
+I like building stuff to detect stuff! Leveraging data and analytics to deliver real insights, empower people, challenge constructively and build an enduring relationship with all stakeholders.
 
-Explore my artefacts here or there: [YouTube](https://www.youtube.com/@ammopy), [Kaggle](https://www.kaggle.com/amrmuhammad)
+Explore my artefacts here or there: [YouTube](https://www.youtube.com/@ammopy), [Kaggle](https://www.kaggle.com/amrmuhammad) and find more about me there [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
 
 ## ForYou
 
