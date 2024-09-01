@@ -1,9 +1,3 @@
-### Hi there 👋
-
-I like building stuff to detect stuff! Leveraging data and analytics to deliver real insights, empower people, challenge constructively and build an enduring relationship with all stakeholders.
-
-Explore my artefacts here or there: [YouTube](https://www.youtube.com/@ammopy), [Zindi](https://zindi.africa/users/AmMoPy), [Kaggle](https://www.kaggle.com/amrmuhammad) and find more about me on [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
-
 ## ForYou
 
 |Title|Description|Link|
@@ -27,6 +21,8 @@ Explore my artefacts here or there: [YouTube](https://www.youtube.com/@ammopy), 
 |:----|:----:|:----:|
 |Mathematics for Machine Learning and Data Science Specialization|DeepLearning.AI  |[Certificate](https://www.coursera.org/account/accomplishments/specialization/WV6HS4TF942N) |
 |Google Advanced Data Analytics Specialization|Google |[Certificate](https://www.coursera.org/account/accomplishments/specialization/V3QFZC3A68XU) |
+
+I'm also there: [YouTube](https://www.youtube.com/@ammopy), [Zindi](https://zindi.africa/users/AmMoPy), [Kaggle](https://www.kaggle.com/amrmuhammad), [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
 
 ![](https://komarev.com/ghpvc/?username=AmMoPy&style=flat-square)
 
