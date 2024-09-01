@@ -1,10 +1,10 @@
-## ForYou
+## Projects
 
 |Title|Description|Link|
 |:----|:----:|:----:|
 |Fighting Fire with Data |Predicting Wildfire burned area in different locations across Zimbabwe |[leaderboard](https://zindi.africa/competitions/predict-fire-extent/leaderboard), [code](https://github.com/AmMoPy/Wildfire_Prediction_Challenge)|
-|All of Natural Language Processing |Semantic Search using pre-trained MPNET model for matching questions to their correct answers! |[leaderboard](https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/leaderboard), [code](https://github.com/AmMoPy/semantic-search-question-answer)|
-|All of Machine learning |The different methods to calculate Linear regression coefficients! |[code](https://github.com/AmMoPy/Simple_Multiple_Bayesian_Linear_Regression)|
+|All of Natural Language Processing |Semantic Search using pre-trained MPNET model for matching questions to their correct answers |[leaderboard](https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/leaderboard), [code](https://github.com/AmMoPy/semantic-search-question-answer)|
+|All of Machine learning |The different methods to calculate Linear regression coefficients |[code](https://github.com/AmMoPy/Simple_Multiple_Bayesian_Linear_Regression)|
 |Mixed Naive Bayes Algorithm |Implementing Naive Bayes algorithm from scratch in Python; A single model for both Categorical & Numeric data |[vid](https://youtu.be/wz8rkWFLdPQ), [code](https://github.com/AmMoPy/Mixed_Naive_Bayes_Classifier)|
 |Identifying and Measuring Risk |Learn about Probability distributions; performing risk assessment and Monte Carlo simulation in Python |[vid](https://youtu.be/bs5rPzr8zr4), [code](https://github.com/AmMoPy/Probability_Distribution_Risk_Monte_Carlo)|
 |Exploratory Data Analysis Tutorial |Step by step Exploratory Data Analysis tutorial |[vid](https://youtu.be/_57goAoPjBs), [code](https://github.com/AmMoPy/General_Linear_Model_GLM_ANOVA_T-test)|
@@ -19,8 +19,8 @@
 
 |Title|From|Link|
 |:----|:----:|:----:|
-|Mathematics for Machine Learning and Data Science Specialization|DeepLearning.AI  |[Certificate](https://www.coursera.org/account/accomplishments/specialization/WV6HS4TF942N) |
-|Google Advanced Data Analytics Specialization|Google |[Certificate](https://www.coursera.org/account/accomplishments/specialization/V3QFZC3A68XU) |
+|Mathematics for Machine Learning and Data Science Specialization |DeepLearning.AI  |[Certificate](https://www.coursera.org/account/accomplishments/specialization/WV6HS4TF942N) |
+|Google Advanced Data Analytics Specialization |Google |[Certificate](https://www.coursera.org/account/accomplishments/specialization/V3QFZC3A68XU) |
 
 I'm also there: [YouTube](https://www.youtube.com/@ammopy), [Zindi](https://zindi.africa/users/AmMoPy), [Kaggle](https://www.kaggle.com/amrmuhammad), [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
 
