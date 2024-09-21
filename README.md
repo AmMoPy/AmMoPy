@@ -15,16 +15,11 @@
 |Natural Language Processing for Fraud Investigations |Processing Emails for leads that would be helpful in a Fraud Investigation - Real Case Study using public data |[code](https://github.com/AmMoPy/NLP_Enron_Emails)|
 |Data Visualization |Collection of different data visualization techniques using Seaborn and Matplotlib modules |[code](https://github.com/AmMoPy/Data_Visualization)|
 
-## Courses
-
-|Title|From|Link|
-|:----|:----:|:----:|
-|Mathematics for Machine Learning and Data Science Specialization |DeepLearning.AI  |[Certificate](https://www.coursera.org/account/accomplishments/specialization/WV6HS4TF942N) |
-|Google Advanced Data Analytics Specialization |Google |[Certificate](https://www.coursera.org/account/accomplishments/specialization/V3QFZC3A68XU) |
-
 I'm also there: [YouTube](https://www.youtube.com/@ammopy), [Zindi](https://zindi.africa/users/AmMoPy), [Kaggle](https://www.kaggle.com/amrmuhammad), [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
 
+<!--
 ![](https://komarev.com/ghpvc/?username=AmMoPy&style=flat-square)
+-->
 
 <!--
 **AmMoPy/AmMoPy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
