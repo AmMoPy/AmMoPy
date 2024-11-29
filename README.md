@@ -1,3 +1,10 @@
+
+## Modules
+
+|Title|Description|Link|
+|:----|:----:|:----:|
+|zaps |low-code Python wrapper for EDA | [repo](https://github.com/AmMoPy/zaps), [docs](https://zaps.readthedocs.io/en/latest/)|
+
 ## Projects
 
 |Title|Description|Link|
