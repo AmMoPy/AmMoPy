@@ -27,7 +27,7 @@
 |Natural Language Processing for Fraud Investigations |Processing Emails for leads that would be helpful in a Fraud Investigation - Real Case Study using public data |[code](https://github.com/AmMoPy/NLP_Enron_Emails)|
 |Data Visualization |Collection of different data visualization techniques using Seaborn and Matplotlib modules |[code](https://github.com/AmMoPy/Data_Visualization)|
 
-I'm also there: [YouTube](https://www.youtube.com/@ammopy), [Zindi](https://zindi.africa/users/AmMoPy), [Kaggle](https://www.kaggle.com/amrmuhammad), [LinkedIn](https://www.linkedin.com/in/amrmuhamad)
+I'm also there: [Kaggle](https://www.kaggle.com/amrmuhammad), [Zindi](https://zindi.africa/users/AmMoPy), [YouTube](https://www.youtube.com/@ammopy), [LinkedIn](https://www.linkedin.com/in/amrmuhamad), [Tableau](https://public.tableau.com/app/profile/ammopy/vizzes)
 
 <!--
 ![](https://komarev.com/ghpvc/?username=AmMoPy&style=flat-square)
