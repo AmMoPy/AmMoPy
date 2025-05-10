@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' https://ammopy.goatcounter.com https://gc.zgo.at; 
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src 'self' data: https://fonts.gstatic.com;
+  img-src 'self' data: blob: https://raw.githubusercontent.com; 
+  connect-src 'self' https://werdos.vercel.app https://ammopy.goatcounter.com;
+  form-action 'self';
+  ">
+  <title>Amr Muhammad | Analytics Professional | Python, Machine Learning & Business Insights</title>
+  <meta name="description" content="10+ years in advanced analytics, data-driven decision-making, and cross-functional leadership. Ex-Big4 consultant & certified Internal Auditor, Fraud Examiner and Data Analyst specializing in implementing risk-based methodologies & empowering clients with actionable insights that drive decision-making.">
+  <meta name="keywords" content=" Data Analytics, Business Insights, Python, Machine Learning, Fraud Detection, Risk, Automation, Tableau, SQL, Big4 Consulting">
+  <meta name="author" content="AmMoPy">
+  <meta property="og:title" content="Amr Muhammad | Data Analytics Professional | Python, Machine Learning & Business Insights">
+  <meta property="og:description" content="10+ years in advanced analytics, data-driven decision-making, and cross-functional leadership. Ex-Big4 consultant & certified Internal Auditor, Fraud Examiner and Data Analyst specializing in implementing risk-based methodologies & empowering clients with actionable insights that drive decision-making.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ammopy/AmMoPy/main/assets/images/ammo.svg">
+  <meta property="og:url" content="https://ammopy.github.io/AmMoPy/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amr Muhammad | Data Analytics Professional | Python, Machine Learning & Business Insights">
+  <meta name="twitter:description" content="10+ years in advanced analytics, data-driven decision-making, and cross-functional leadership. Ex-Big4 consultant & certified Internal Auditor, Fraud Examiner and Data Analyst specializing in implementing risk-based methodologies & empowering clients with actionable insights that drive decision-making.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/ammopy/AmMoPy/main/assets/images/ammo.svg">
+  <link rel="canonical" href="https://ammopy.github.io/AmMoPy/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/css_ext/swiper-bundle.min.css">
+
+  <script>
+    // Flash of Inaccurate Color Theme (FOICT) prevention  
+    // When swithcing between dark/light mode
+    // Check local storage immediately and apply class to HTML element
+    // This runs before any DOM elements are rendered
+    (() => {
+      try {
+        const preference = localStorage.getItem('dark-mode');
+        const root = document.documentElement;
+        
+        // Set initial classes before DOM renders
+        root.classList.toggle('dark-mode', preference !== 'false');
+      } catch (e) {
+        // Fallback to dark mode if localStorage fails
+        document.documentElement.classList.add('dark-mode');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <svg style="position: absolute; width: 0; height: 0;">
+  <defs>
+    <path id="top-edge" d="m 159.896,10 c -1.20981,-3.2452377 -11.43396,0.941914 -4.782,-4.033 4.08441,-0.8310271 11.78897,-1.6429533 12.668,4.033 m 72.739,0 c -1.20981,-3.2452377 -11.43396,0.941914 -4.782,-4.033 4.08441,-0.8310271 11.78897,-1.6429533 12.668,4.033 m 2.672,0 c 1.70584,-7.9900745 12.57665,0.09274 10.331,-9.207999 7.79923,-2.2215503 7.70989,1.9554142 7.122,9.207999 m -8.155,0 c -0.54188,-0.6391931 -1.71015,-0.7969681 -2.185,0 M 211.456,10 210.577,9.672 209.662,10 m -8.24,0 c -0.4542,-8.6559134 8.08433,-0.8246392 10.982,-4.408 5.40542,0.4674666 6.48883,2.8891605 11.493,-0.12 2.61461,-0.1380398 5.4925,1.6545655 5.483,4.528 M 221.584,10 220.705,9.672 219.79,10 m -49.048,0 c -0.45408,-8.6559163 8.08425,-0.824636 10.982,-4.408 5.40542,0.4674666 6.48883,2.8891605 11.493,-0.12 2.61443,-0.1378895 5.49326,1.6546437 5.484,4.528 M 190.904,10 190.025,9.672 189.111,10 M 180.776,10 179.897,9.672 178.983,10 M 70.8371,11 70.2793,11.088 69.7979,11 M 21.3846,10 C 18.738262,6.5878366 17.683655,0.10114081 12.216,0.959999 7.8651976,1.1727624 6.9440194,7.1033796 4.64753,10 m 3.65207,0 c 0.8479513,-2.3801151 2.052165,-2.9483341 2.9144,0 m 44.2132,0 C 53.450062,0.45365819 44.960642,10.456195 41.4536,5.64 35.826666,7.6700588 33.715048,5.0600491 27.9116,6.144 27.406441,7.3783786 27.532011,8.7091647 27.4687,10 m 8.2405,0 0.9144,-0.328 0.8789,0.328 m 8.3347,0 0.9144,-0.328 0.8789,0.328 m 24.2738,0 C 75.195528,3.6927333 65.679003,6.2782452 65.7913,7.176 64.314228,4.5948723 56.020224,4.9433068 58.1484,10 m 49.3216,0 c 3.33175,-7.8059554 -5.96195,-12.8834098 -9.0959,-4.528 -3.83121,7.404435 -6.228997,-8.8554913 -13.2,-4.272 -3.431224,0.4099332 -1.220939,6.6535936 -1.944,8.8 m 34.3589,0 c 1.90566,-5.0016142 -5.3095,-5.3929791 -7.451,-3.04 -0.0287,1.0130769 -0.0246,2.0266347 -0.023,3.04 m 17.889,0 c 2.36412,-6.1009615 -10.11601,-5.9040159 -7.731,0 m 10.762,0 c -1.13406,-5.8144937 -0.0967,-11.5946846 6.702,-9.447999 1.53549,4.5950009 -0.5149,7.9031366 5.34,4.919999 2.66338,-0.1570328 5.68907,1.5484784 5.675,4.528 m -7.796,0 -0.879,-0.328 -0.894,0.328"/>
+    <path id="bottom-edge" d="m 250.923,11 c -2.21458,8.264898 8.38698,7.57579 10.691,6.484 5.11288,2.518126 8.17108,-1.117068 6.90911,-6.015735 L 268.526,11 m -7.86,0 c 0.92056,3.510045 -3.69551,4.655116 -2.805,0 m -23.639,0 c -7.36808,3.980681 2.65723,10.457731 6.29,5.944 4.17588,2.860193 10.54488,1.214957 7.931,-5.944 m -9.035,4.216 c 6.07458,-3.825156 -5.48259,-3.663387 0,0 z M 221.974,11 c -0.0916,3.329562 -0.95402,8.468872 4.02477,7.044107 C 231.033,19.027096 229.10987,14.244368 229.406,11 m -17.56,0 c -0.0916,3.329562 -0.95402,8.468872 4.02477,7.044107 5.25776,0.91855 2.98265,-3.805516 3.42023,-7.044107 m -17.879,0 c -3.0719,9.970182 10.78413,9.757425 7.751,0 m -17.868,0 c -0.094,3.329612 -0.95431,8.468854 4.02377,7.044107 C 200.353,19.027096 198.42987,14.244368 198.726,11 m -17.559,0 c -0.094,3.329612 -0.95431,8.468854 4.02377,7.044107 5.25776,0.91855 2.98265,-3.805516 3.42023,-7.044107 m -17.879,0 c -3.0719,9.970182 10.78413,9.757425 7.751,0 m -24.886,0 c -7.36808,3.980681 2.65723,10.457731 6.29,5.944 4.17588,2.860193 10.54488,1.214957 7.931,-5.944 m -7.955,3.808 c -6.45748,1.828242 1.17544,-7.1921277 0,0 z M 141.346,11 c -0.0916,3.329562 -0.95402,8.468872 4.02477,7.044107 C 150.405,19.027096 148.48187,14.244368 148.778,11 m -10.112,0 c 0.3272,3.776892 0.16655,8.548907 -5.02712,7.017398 C 129.45006,18.671402 131.60033,13.335519 131.041,11 m -65.0165,0 c 2.918617,9.89211 -11.07478,9.743382 -7.886,0 m -36.1626,0 c 2.576171,3.086456 4.607636,8.412436 -1.453402,7 -4.231791,1.202375 -6.168704,-1.577738 -8.986082,-3.216 C 7.1491349,13.123859 6.2703755,17.568423 2.9608326,18 -2.0442862,18.57048 3.6997586,12.771937 4.0805,11 m 3.79281,0 c 0.1242672,1.084922 3.333239,0.965046 3.66939,0 m 15.9161,0 c -3.072503,9.970175 10.78424,9.757409 7.7507,0 m 2.6839,0 c -0.09352,3.329604 -0.954256,8.468857 4.023973,7.044107 C 47.17503,18.96266 44.900188,14.238594 45.3375,11 m 10.1151,0 c 3.823223,6.288872 -5.912009,10.02286 -7.44861,4.896842 C 48.00883,14.264571 48.021016,12.632236 48.0214,11 m 35.2116,0 c -3.318818,6.352462 6.680804,10.357213 5.470434,2.755972 0.680595,-3.8965166 5.245067,11.07734 7.714666,1.304028 3.65369,-7.166313 0.09427,7.961269 7.7999,3.006 4.55326,0.959413 2.77602,-4.592695 3.249,-7.066 m 20.549,0 c 2.89725,8.335422 -5.77022,7.409801 -8.8945,6.2455 C 114.31553,20.240029 108.77953,16.94321 110.118,11 m 7.467,0 c -0.83243,3.913392 3.2103,4.195476 2.681,0"/>
+  </defs>
+</svg>
+
+  <!-- Header -->
+  <header id="header">
+    <!-- Page Scrolling Progress -->
+    <div id="progress-bar"></div>
+
+    <!-- Left: Name SVG -->
+    <div class="header-left">
+      <div class="laser-container">
+        <!-- Hidden but machine-readable (screen readers/SEO) -->
+        <h1 class="sr-only">Amr Muhammad | Analytics Professional | Python, Machine Learning & Business Insights</h1>
+        <!-- Laser Traces (reference paths) -->
+        <svg class="laser-track">
+          <use href="#top-edge" class="top-beam"/>
+          <use href="#bottom-edge" class="bottom-beam"/>
+        </svg>
+      </div>
+      <!-- particles container -->
+      <div id="particles-js"></div>
+    </div>
+
+    <!-- Right: Dark Mode & Menu Toggle -->
+    <div class="header-right">
+      <button id="dark-mode-toggle">
+        <img src="assets/icons/dark_light/sun.png" alt="Light Mode" class="light-mode-icon">
+        <img src="assets/icons/dark_light/moon.png" alt="Dark Mode" class="dark-mode-icon">
+      </button>
+      <button id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="#landing" class="smoothscroll">About Me</a></li>
+        <li><a href="#work" class="smoothscroll">Experience</a></li>
+        <li><a href="#education" class="smoothscroll">Education</a></li>
+        <li><a href="#services-section" class="smoothscroll">Services</a></li>
+        <li><a href="#contact-link" class="smoothscroll">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="landing" class="section">
+    <!-- Horizontal Split: Image and Text -->
+    <div class="about-me-split">
+      <div class="about-me-image">
+        <img src="assets/images/ammo.svg" alt="Amr Muhammad" class="avatar">
+      </div>
+      <div id="about-me-text" class="about-me-text">
+        <!-- About me will be populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Sliders: Cards and Carousel -->
+    <div class="sliders-container">
+      <!-- Video Cards Swiper -->
+      <div class="swiper" id="video-cards">
+        <div class="swiper-wrapper">
+          <!-- Video cards will be populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- L-Shaped Text -->
+      <div class="l-shaped-text">
+        <div class="l-vertical">Analytics Tutorials</div>
+        <div class="l-horizontal">& Projects</div>
+      </div>
+
+      <!-- Project Carousel Swiper -->
+      <div class="swiper" id="project-carousel">
+        <div class="swiper-wrapper">
+          <!-- Project cards will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="work" class="section">
+    <h2>Work Experience</h2>
+    <!-- Timeline Container -->
+    <div id="timeline" class="timeline">
+      <div class="timeline-wrapper"> <!--  to handle scrolling -->
+      <!-- Timeline entries will be populated by JavaScript -->
+      </div>
+    </div>
+    <!-- Modal for Detailed Description -->
+    <div id="work-modal" class="modal">
+      <span class="close-modal">&times;</span>
+      <div class="modal-content">
+        <div id="modal-header">
+         <!-- Header will be populated dynamically -->
+        </div>
+        <div id="modal-body">
+        <!-- Contents will be populated dynamically -->
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Knowledge Base</h2>
+    <div class="cards-wrapper">
+      <svg width="100%" height="100%" viewBox="0 0 250 300" preserveAspectRatio="none">
+        <!-- Polygon border -->
+        <polygon
+          points="125,0 250,60 250,240 125,300 0,240 0,60"
+          fill="none"
+          stroke="url(#linearGradient)"
+          stroke-width="4"
+        />
+        <!-- Define the gradient for the border -->
+        <defs>
+          <linearGradient id="linearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f9b234" />
+            <stop offset="100%" stop-color="#4c49ea" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <div id="education-cards" class="cards-container">
+        <!-- Education cards will be populated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services-section" class="section">
+    <h2>What Can I Do For You?</h2>
+    <!-- Pagination -->
+    <div class="pagination-dots">
+      <!-- Dots will be populated by JavaScript -->
+    </div>
+    <div class="services-scroll-container">
+      <div class="services-container">
+        <!-- Services will be populated here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Modal -->
+  <div id="contact-modal" class="mail-modal">
+    <div class="mail-modal-content">
+      <span class="close">&times;</span>
+      <h2>How may I assist you?</h2>
+      <form id="contact-form">
+        <input type="hidden" id="csrf-token" name="csrf-token">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required placeholder="name@domain.com" pattern="[^\s@]+@[^\s@]+\.[^\s@]+">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="I need the following service..." maxlength="100">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Define Scope of Work, Delivery Timeline and Maximum Budget" maxlength="1000"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Amr Muhammad. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/AmMoPy" target="_blank"><img src="assets/icons/sm/gh.png" alt="GitHub"></a>
+        <a href="https://linkedin.com/in/amrmuhamad" target="_blank"><img src="assets/icons/sm/li.png" alt="LinkedIn"></a>
+        <a href="https://zindi.africa/users/AmMoPy" target="_blank"><img src="assets/icons/sm/zi.png" alt="kaggle"></a>
+        <a href="https://www.kaggle.com/amrmuhammad" target="_blank"><img src="assets/icons/sm/kag.png" alt="zindi"></a>
+        <a href="https://youtube.com/@ammopy" target="_blank"><img src="assets/icons/sm/yt.png" alt="YouTube"></a>
+        <a href="#" id="contact-link"><img src="assets/icons/sm/ctc.png" alt="Contact Me"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Swiper -->
+  <script src="js/js_ext/swiper-bundle.min.js"></script>
+  
+  <!-- DOMPurify -->
+  <script src="js/js_ext/purify.min.js"></script>
+
+  <!-- Particles -->
+  <script src="js/js_ext/particles.min.js"></script>
+  <script src="js/prtx.min.js"></script>
+
+  <!-- Main -->
+  <script type="module" src="js/main.min.js"></script>
+
+  <!-- EmailJS SDK -->
+  <script src="js/js_ext/email.min.js"></script>
+  <script src="js/emjs.min.js"></script>
+
+  <!-- GoatCounter Analytics -->
+  <script src="js/js_ext/count.js"></script>
+
+</body>
+</html>
